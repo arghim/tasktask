@@ -11221,6 +11221,20 @@ metro-source-map@0.71.1:
     source-map "^0.5.6"
     vlq "^1.0.0"
 
+metro-source-map@0.73.3:
+  version "0.73.3"
+  resolved "https://registry.yarnpkg.com/metro-source-map/-/metro-source-map-0.73.3.tgz#6eaf99ccd98b46f8afd8cb5cbb5e360dcce3836a"
+  integrity sha512-zOm8Ha0hWiJhI52IcMibdNIS6O3YK6qUnQ7dgZOGvnEWRTfzYlX08yFXwMg91GIdXzxHJE43opcPwSE1RDvoGQ==
+  dependencies:
+    "@babel/traverse" "^7.14.0"
+    "@babel/types" "^7.0.0"
+    invariant "^2.2.4"
+    metro-symbolicate "0.73.3"
+    nullthrows "^1.1.1"
+    ob1 "0.73.3"
+    source-map "^0.5.6"
+    vlq "^1.0.0"
+
 metro-symbolicate@0.70.3:
   version "0.70.3"
   resolved "https://registry.yarnpkg.com/metro-symbolicate/-/metro-symbolicate-0.70.3.tgz#b039e5629c4ed0c999ea0496d580e1c98260f5cb"
@@ -11240,6 +11254,18 @@ metro-symbolicate@0.71.1:
   dependencies:
     invariant "^2.2.4"
     metro-source-map "0.71.1"
+    nullthrows "^1.1.1"
+    source-map "^0.5.6"
+    through2 "^2.0.1"
+    vlq "^1.0.0"
+
+metro-symbolicate@0.73.3:
+  version "0.73.3"
+  resolved "https://registry.yarnpkg.com/metro-symbolicate/-/metro-symbolicate-0.73.3.tgz#2641dd63fc8ef348a3c2bb0fa2f82f1a75d8b96a"
+  integrity sha512-gOjoQcUFuDl3YKO0D7rcLEDIw331LM+CiKgIzQlZmx7uZimORnt9xf/8P/Ued0y77q8ColuJAVDqp/JirqRfEw==
+  dependencies:
+    invariant "^2.2.4"
+    metro-source-map "0.73.3"
     nullthrows "^1.1.1"
     source-map "^0.5.6"
     through2 "^2.0.1"
@@ -12120,6 +12146,11 @@ ob1@0.71.1:
   version "0.71.1"
   resolved "https://registry.yarnpkg.com/ob1/-/ob1-0.71.1.tgz#e70aa35e19e13e64ff4027066c06acee50d98362"
   integrity sha512-Tb8dhat5XmFNJ3zx0EkDQuqOGA5glo70c1mj58ifDDZqKyac86wKocY++RA8a5bCkeuyGhKGO5kTxbAjyVyurQ==
+
+ob1@0.73.3:
+  version "0.73.3"
+  resolved "https://registry.yarnpkg.com/ob1/-/ob1-0.73.3.tgz#36e796fa6fbea4696063cf711fe53505be7bc9a2"
+  integrity sha512-KpCFQty/eGriUsF3tD4FybV2vsWNzID3Thq/3o0VzXn+rtcQdRk1r6USM5PddWaFjxZqbVXjlr6u7DJGhPz9xw==
 
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
