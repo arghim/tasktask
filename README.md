@@ -7,7 +7,7 @@
 <img src="https://user-images.githubusercontent.com/9938300/203166068-b531b050-37e7-4573-9bca-1b31655c4100.jpg" alt="drawing" width="200"/>
 </p>
 
-Mobile application made for educational purposes. This simple app allows you to create your todo list and save it in the cloud. To create this app I use react native technology. You can download and test it from the [AppStore](https://apps.apple.com/pl/app/tasktask/id6444321606?l=pl) or GooglePlay.
+     Mobile application made for educational purposes. This simple app allows you to create your todo list and save it in the cloud. To create this app I use react native technology. You can download and test it from the [AppStore](https://apps.apple.com/pl/app/tasktask/id6444321606?l=pl) or GooglePlay.
 
 ## Tech stack
 
